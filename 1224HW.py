@@ -27,7 +27,7 @@ while not done:
     pygame.draw.circle(screen , BLUE , (100,120) , 25 , 0)
     pygame.draw.circle(screen, BLUE , (200,120) , 25, 0)
     pygame.draw.ellipse(screen , GREEN , [135 , 130 , 30 , 80] , 0)
-    pygame.draw.arc(screen , RED , [75 , 130 , 150 ,120], 3.4 , 6,1)
+    pygame.draw.arc(screen , RED , [75 , 130 , 150 ,120], 3.4 , 6,3)
     pygame.display.flip()
     clock.tick(60)
 pygame.quit()
